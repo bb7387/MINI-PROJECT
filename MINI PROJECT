@@ -1,0 +1,55 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+printf("runs scored by batter1:"); 
+scanf("%d",&a);
+ printf("balls faced: "); 
+ scanf("%d",&b);
+ 
+ printf("----------------------\n");
+int e,f;
+printf("runs scored by batter2: "); 
+scanf("%d",&e);
+ printf("balls faced: "); 
+ scanf("%d",&f);
+ printf("----------------------\n");
+ int i,j;
+printf("runs scored by batter3: "); 
+scanf("%d",&i);
+ printf("balls faced: "); 
+ scanf("%d",&j);
+ 
+ printf("----------------------\n");
+ 
+ int m,n;
+printf("runs scored by batter4: ");
+scanf("%d",&m);
+ printf("balls faced: "); 
+ scanf("%d",&n);
+printf("----------------------\n");
+ int q,r;
+ 
+printf("runs scored by batter5: "); 
+scanf("%d",&q);
+ printf("balls faced: "); 
+ scanf("%d",&r);
+ 
+ printf("Batting Scorecard");
+ printf("----------------------------------------------------------------------\n");
+ printf("Sl.no.| NAME of batter | runs | balls faced | \n");
+ printf("----------------------------------------------------------------------\n");
+ printf("1 | KL Rahul |%d | %d | \n",a,b);
+ printf("2 | Rohit Sharma |%d | %d | \n",e,f);
+ printf("3 | virat Kohli |%d | %d | \n",i,j);
+ printf("4 | Rishabh Pant |%d | %d | \n",m,n);
+ printf("5 | Ravindra jadeja |%d | %d | \n",q,r);
+ int extras;
+ printf("Extras:");
+ scanf("%d",&extras);
+ printf("Extras =%d\n",extras);
+ int total;
+ total=a+e+i+m+q+extras;
+ printf("total runs scored is %d",total);
+ return 0;}
+
